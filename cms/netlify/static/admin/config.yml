@@ -3,6 +3,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   site_domain: 'localhost'
 
+local_backend: true
+
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
   # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
@@ -16,7 +18,7 @@ i18n:
   # Optional, defaults to the first item in locales.
   # The locale to be used for fields validation and as a baseline for the entry.
   default_locale: en
-  
+
 # This line should *not* be indented
 media_folder: 'assets/uploads' # Media files will be stored in the repo under images/uploads
 public_folder: '/uploads' # The src attribute for uploaded media will begin with /images/uploads
