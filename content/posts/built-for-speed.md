@@ -1,23 +1,24 @@
 ---
 title: Built For Speed2
-subtitle: Awake is Built to Be Blazing Fast
+subtitle: Awake is Built to Be Blazing Fast2
 category:
   - About Awake
-author: Daniel Kelly
+  - Third Party Integrations
+author: Daniel Kelly2
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
-Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
+2Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
 
 ## The JAM Stack
 
 The JAM stack is a way of building websites that compile down basically to html, css, and javascript and then is served over a CDN. API's are then sprinkled in to add more advanced functionality where needed. Because there is no server, no computations to run, initial response time is like lightening. 
 
-## Nuxt.js
+## Nuxt.js2
 
 [Nuxt.js](https://www.nuxtjs.org) has the ability to generate static sites that are served on the JAM Stack, building plain old html files... but those html files are super-powered with Vue.js. What this means, is that pages have content "hard coded" into the html files for top-rate SEO scores but after initial page load behave as a traditional SPA with smooth page transitions, minimal data served between requests, etc. This means Awake is fast both on both the first page visitors hit and even faster on subsequent pages.
 
-## Purge CSS
+## Purge CSS2
 
 Awake uses the [Bulma](https://bulma.io/) framework for a starting place for styles but certainly doesn't use every style the Bulma framework provides. [Purge CSS](https://www.purgecss.com/) minimizes the css sent to the browser by removing any unused styles at compile time. You can read more about how Awake uses Purge CSS in this [post](/light-css-footprint).
 
