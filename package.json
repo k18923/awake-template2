@@ -37,7 +37,7 @@
     "markdown-it-sup": "^1.0.0",
     "md5": "^2.2.1",
     "ncp": "^2.0.0",
-    "netlify-cms": "^2.9.5",
+    "netlify-cms": "^2.10.77",
     "nuxt": "^2.14.11",
     "nuxt-buefy": "^0.3.2",
     "nuxt-fontawesome": "^0.4.0",
